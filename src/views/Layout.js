@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import React from "react";
-import NavBarReLog from "../components/NavBars/NavBarReLog/NavBarReLog"
+import NavBarReLog from "./NavBars/NavBarReLog/NavBarReLog"
 
 
 const Layout = () => {

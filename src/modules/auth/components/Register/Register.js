@@ -3,7 +3,7 @@ import {Link, useNavigate} from "react-router-dom";
 import { faCheck, faTimes, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import RegisterCSS from './Register.moduls.css'
-import todosApi from "../../Api/todoApi" 
+import todosApi from '../../../../core/api/todoApi.js';
 
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;

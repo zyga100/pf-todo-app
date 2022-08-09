@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'; 
 import ListTasksCSS from "./ListTasks.module.css"
 import {Link} from "react-router-dom";
-import todosApi from "../../Api/todoApi" 
+import todosApi from '../../../../core/api/todoApi.js';
+
 
 
 const TASK_URL = '/task' 

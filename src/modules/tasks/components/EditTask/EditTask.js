@@ -1,7 +1,8 @@
 import React , {useState, useEffect}  from 'react'; 
 import EditTaskCSS from './EditTask.module.css'
 import {Link, useParams, useNavigate } from "react-router-dom";
-import todosApi from "../../Api/todoApi" 
+import todosApi from '../../../../core/api/todoApi.js';
+
 
 const EditTask = () => {
 
